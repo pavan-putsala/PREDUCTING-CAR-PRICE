@@ -1,5 +1,7 @@
-# PREDUCTING-CAR-PRICE
+Nice start 👍 I polished your README.md so it looks **structured and complete**. Here’s the improved version:
 
+```markdown
+# PREDICTING-CAR-PRICE
 
 # 🚗 Car Price Prediction ML Model
 
@@ -27,7 +29,16 @@ It uses a **trained Machine Learning model** (`model.pkl`) to predict the resale
 ---
 
 ## 📂 Project Structure
+```
 
+.
+├── app.py                 # Streamlit app (main code)
+├── model.pkl              # Trained ML model
+├── Cardetails_fixed.csv   # Dataset used for preprocessing
+├── requirements.txt       # Dependencies
+└── README.md              # Project documentation
+
+````
 
 ---
 
@@ -37,26 +48,43 @@ It uses a **trained Machine Learning model** (`model.pkl`) to predict the resale
 ```bash
 git clone https://github.com/pavan-putsala/car-price-prediction.git
 cd car-price-prediction
+````
+
+### 2. Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-##🚀 Future Enhancements
+### 3. Run the Streamlit app
 
-Deploy on Streamlit Cloud / Heroku / AWS.
+```bash
+streamlit run app.py
+```
 
-Improve ML model accuracy with hyperparameter tuning.
+---
 
-Add visualizations (e.g., price trends by brand/year).
+## 🚀 Future Enhancements
 
-Enable dataset upload for custom predictions.
+* Deploy on **Streamlit Cloud / Heroku / AWS**.
+* Improve ML model accuracy with **hyperparameter tuning**.
+* Add **visualizations** (e.g., price trends by brand/year).
+* Enable **dataset upload** for custom predictions.
 
-##🤝 Contributing
+---
 
-Contributions are welcome! Please fork the repo and create a pull request.
+## 🤝 Contributing
 
-##📜 License
+Contributions are welcome! Please **fork** the repo and create a **pull request**.
 
-This project is licensed under the MIT License.
+---
 
-##👨‍💻 Author
+## 📜 License
 
-Developed by [Your Name] ✨
+This project is licensed under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+Developed by Pavan Putsala
